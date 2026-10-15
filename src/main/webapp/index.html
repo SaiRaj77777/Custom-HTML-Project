@@ -1,33 +1,452 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Maven Website</title>
+
+    <title>Vinay Constructions | Building Your Dreams</title>
+
+    <meta name="description"
+          content="Vinay Constructions, led by proprietor Vinay, offers home construction, commercial construction, renovation and real estate services.">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>A simple HTML-based Maven project</p>
+
+    <!-- Navigation -->
+    <header class="header" id="home">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">⌂</span>
+                <span>
+                    <strong>Vinay <span>Constructions</span></strong>
+                    <small>BUILDING YOUR DREAMS</small>
+                </span>
+            </a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-button">Get a Quote</a>
+        </div>
     </header>
 
-    <main class="container">
-        <h2>Hello, World!</h2>
-        <p>This website is built using HTML, CSS, and Maven.</p>
-        <button onclick="showMessage()">Click Me</button>
-        <p id="message"></p>
-    </main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">QUALITY | TRUST | ON-TIME DELIVERY</p>
 
-    <footer>
-        <p>&copy; 2026 My Website</p>
+            <h1>
+                Your Dream Home<br>
+                <span>Our Construction</span>
+            </h1>
+
+            <p class="hero-description">
+                Welcome to Vinay Constructions. Led by proprietor Vinay,
+                we are committed to building quality homes, creating
+                lasting value and turning your dreams into reality.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="button button-primary">
+                    Explore Our Projects
+                </a>
+
+                <a href="#contact" class="button button-outline">
+                    Contact Us
+                </a>
+            </div>
+
+            <div class="hero-note">
+                <strong>Building spaces.</strong>
+                Creating happiness. Delivering trust.
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="highlights">
+        <div class="highlight">
+            <span class="highlight-icon">⌂</span>
+            <div>
+                <h3>Custom Home Construction</h3>
+                <p>Built as per your vision</p>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <span class="highlight-icon">✓</span>
+            <div>
+                <h3>Quality Materials</h3>
+                <p>Strong and long-lasting</p>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <span class="highlight-icon">◷</span>
+            <div>
+                <h3>On-Time Delivery</h3>
+                <p>Your time matters</p>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <span class="highlight-icon">♙</span>
+            <div>
+                <h3>Experienced Team</h3>
+                <p>Professional service</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="section about" id="about">
+        <div class="section-heading">
+            <p class="eyebrow">ABOUT OUR COMPANY</p>
+            <h2>Building Trust, One Home at a Time</h2>
+            <span class="heading-line"></span>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+                    alt="Modern residential home">
+            </div>
+
+            <div class="about-text">
+                <h3>Welcome to Vinay Constructions</h3>
+
+                <p>
+                    At Vinay Constructions, we believe every home begins
+                    with a dream. Our goal is to help families and
+                    businesses turn their ideas into well-designed,
+                    functional and beautiful spaces.
+                </p>
+
+                <p>
+                    Under the leadership of proprietor Vinay, we focus
+                    on quality workmanship, thoughtful planning,
+                    transparent communication and customer satisfaction.
+                </p>
+
+                <ul class="check-list">
+                    <li>Residential and independent house construction</li>
+                    <li>Commercial buildings and office spaces</li>
+                    <li>Renovation and interior improvement</li>
+                    <li>Real estate and property assistance</li>
+                </ul>
+
+                <p class="proprietor">
+                    Proprietor: <strong>Vinay</strong>
+                </p>
+
+                <a href="#contact" class="button button-primary">
+                    Discuss Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+        <div class="section-heading">
+            <p class="eyebrow">WHAT WE DO</p>
+            <h2>Complete Construction & Real Estate Solutions</h2>
+            <span class="heading-line"></span>
+            <p class="section-description">
+                From planning to finishing, we help bring your property
+                and construction goals to life.
+            </p>
+        </div>
+
+        <div class="service-grid">
+
+            <article class="service-card">
+                <div class="service-icon">⌂</div>
+                <h3>Residential Construction</h3>
+                <p>
+                    Independent houses, villas, duplex homes and
+                    apartments designed around your needs.
+                </p>
+                <a href="#contact">Enquire Now →</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">▦</div>
+                <h3>Commercial Construction</h3>
+                <p>
+                    Offices, retail shops, commercial complexes and
+                    business spaces built with care.
+                </p>
+                <a href="#contact">Enquire Now →</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">⚒</div>
+                <h3>Renovation & Remodeling</h3>
+                <p>
+                    Upgrade your existing home or property with
+                    improvements suited to your requirements.
+                </p>
+                <a href="#contact">Enquire Now →</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">⌖</div>
+                <h3>Real Estate Services</h3>
+                <p>
+                    Assistance with plots, residential properties,
+                    property development and investment opportunities.
+                </p>
+                <a href="#contact">Enquire Now →</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">▤</div>
+                <h3>Planning & Design</h3>
+                <p>
+                    Plan your construction project with suitable
+                    layouts, space planning and design coordination.
+                </p>
+                <a href="#contact">Enquire Now →</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">✧</div>
+                <h3>Interior Finishing</h3>
+                <p>
+                    Enhance your spaces with flooring, painting,
+                    finishing work and interior improvements.
+                </p>
+                <a href="#contact">Enquire Now →</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+        <div class="section-heading">
+            <p class="eyebrow">OUR WORK</p>
+            <h2>Explore Our Projects</h2>
+            <span class="heading-line"></span>
+            <p class="section-description">
+                Discover the possibilities for your next construction
+                or real estate project.
+            </p>
+        </div>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <img
+                    src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+                    alt="Contemporary residential house">
+                <div class="project-info">
+                    <span>RESIDENTIAL</span>
+                    <h3>Modern Dream Home</h3>
+                    <p>Contemporary design and comfortable living.</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img
+                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                    alt="Modern commercial building">
+                <div class="project-info">
+                    <span>COMMERCIAL</span>
+                    <h3>Commercial Spaces</h3>
+                    <p>Professional spaces for growing businesses.</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img
+                    src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85"
+                    alt="Modern home interior">
+                <div class="project-info">
+                    <span>RENOVATION</span>
+                    <h3>Beautiful Living Spaces</h3>
+                    <p>Thoughtful improvements for modern living.</p>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="project-disclaimer">
+            Images are illustrative examples. Contact us for details
+            about actual projects and availability.
+        </p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div>
+            <p class="eyebrow">LET'S BUILD TOGETHER</p>
+            <h2>Have a Dream Project in Mind?</h2>
+            <p>
+                Tell us your ideas. Let's take the first step toward
+                building your dream home or business space.
+            </p>
+        </div>
+
+        <a href="#contact" class="button button-primary">
+            Start Your Project
+        </a>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+        <div class="section-heading">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Contact Vinay Constructions</h2>
+            <span class="heading-line"></span>
+            <p class="section-description">
+                Share your requirements and we will get in touch with you.
+            </p>
+        </div>
+
+        <div class="contact-layout">
+            <div class="contact-details">
+                <h3>Let's Talk About Your Project</h3>
+
+                <p>
+                    Whether you are planning a new house, renovating
+                    your property or exploring real estate opportunities,
+                    we welcome your enquiry.
+                </p>
+
+                <div class="contact-item">
+                    <span>▣</span>
+                    <div>
+                        <strong>Company</strong>
+                        <p>Vinay Constructions</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>♙</span>
+                    <div>
+                        <strong>Proprietor</strong>
+                        <p>Vinay</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>☎</span>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>Add your business phone number</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>⌖</span>
+                    <div>
+                        <strong>Location</strong>
+                        <p>Add your city and business address</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <h3>Request a Callback</h3>
+
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required>
+
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required>
+
+                <label for="service">Service Required</label>
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option>Residential Construction</option>
+                    <option>Commercial Construction</option>
+                    <option>Renovation & Remodeling</option>
+                    <option>Real Estate Services</option>
+                    <option>Planning & Design</option>
+                    <option>Interior Finishing</option>
+                </select>
+
+                <label for="message">Project Details</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Tell us about your project"></textarea>
+
+                <button type="submit" class="button button-primary">
+                    Submit Enquiry
+                </button>
+
+                <p id="formMessage" class="form-message"
+                   aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">⌂</span>
+                <span>
+                    <strong>Vinay <span>Constructions</span></strong>
+                    <small>BUILDING YOUR DREAMS</small>
+                </span>
+            </a>
+
+            <p>
+                Proprietor: <strong>Vinay</strong>
+            </p>
+
+            <p>Your Dream Home, Our Priority</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="year"></span>
+                Vinay Constructions. All rights reserved.
+            </p>
+        </div>
     </footer>
 
     <script>
-        function showMessage() {
-            document.getElementById("message").textContent =
-                "Congratulations! Your website is working.";
-        }
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        document.getElementById("contactForm").addEventListener(
+            "submit",
+            function (event) {
+                event.preventDefault();
+
+                document.getElementById("formMessage").textContent =
+                    "Thank you! Your form is ready, but a backend or " +
+                    "form service must be connected to send your enquiry.";
+
+                this.reset();
+            }
+        );
     </script>
+
 </body>
 </html>
